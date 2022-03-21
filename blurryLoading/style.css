@@ -19,4 +19,11 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
 }
