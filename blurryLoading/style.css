@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,17 +15,17 @@ body {
 }
 
 .bg {
-    background: url( ...) no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1648968778551-d8803ecdc6cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
     z-index: -1;
     filter: blur(0px);
 }
 
 .loading-text {
     font-size: 50px;
-    color: #fff;
+    color: white;
 }
